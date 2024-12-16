@@ -8,5 +8,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class StatusComponent {
+  date= new Date();
+  max= navigator.maxTouchPoints;
+  lang= navigator.language;
+  us=window.navigator.userAgent;
+  cok=navigator.cookieEnabled;
+  logi=navigator.hardwareConcurrency;
+
 
 }
